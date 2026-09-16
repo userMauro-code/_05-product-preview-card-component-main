@@ -1,0 +1,25 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --bg-color: hsl(30, 38%, 92%);
+    --bg-card: hsl(0, 0%, 100%);
+    --text-primary: hsl(212, 21%, 14%);
+    --text-secondary: hsl(228, 12%, 48%);
+    --bg-button: hsl(158, 36%, 37%);
+    --color-active: hsl(158, 42%, 18%);
+
+    --fw-montserrat-500: 500;
+    --fw-montserrat-700: 700;
+    --fw-fraunces-700: 700;
+}
+
+html, body {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    background-color: var(--bg-color);
+    color: var(--text-primary);
+}
