@@ -117,11 +117,19 @@ html, body {
 @media (min-width: 768px) {
     .card {
         display: flex;
+        height: 450px;
+        max-width: 600px;
     }
 
-      .card__image img {
+    .card__image img {
         height: 100%;
         border-radius: .7rem 0 0 .7rem;
+        object-fit: cover;
         
+    }
+
+    .card__content {
+        width: 50%;
+        justify-content: space-around;
     }
 }
